@@ -8,7 +8,7 @@ The **Cybersecurity Incident Tracker** follows a **three-tier architecture**:
 
 ## 2. C4 Architectural Diagrams
 
-### 1️⃣ **Context Diagram**
+### **Context Diagram**
 ```mermaid
 C4Context
     title Cybersecurity Incident Tracker Context
@@ -45,3 +45,4 @@ C4Component
     IncidentService -> Database : Stores incident data
     UserAuth -> Database : Manages users & authentication
     Reporting -> Database : Retrieves incident history
+```
