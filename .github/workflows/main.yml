@@ -29,3 +29,14 @@ jobs:
       - name: Run tests
         run: |
           pytest --maxfail=1 --disable-warnings -q
+
+       - name: Build Python Package
+        run: |
+          python setup.py sdist bdist_wheel
+
+      - name: Upload Release Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: cybersecurity-incident-tracker
+          path: dist/
+
