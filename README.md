@@ -23,3 +23,13 @@ Lexical error on line 7. Unrecognized text.
 ---------------------^)
 I tried to fix it but im still struggling to fix it.
 I did this assignment with assistance of Chatgpt and information on the internet.
+
+
+## Running Tests Locally
+
+To run unit and integration tests locally:
+
+```bash
+pip install -r requirements.txt
+pytest
+
